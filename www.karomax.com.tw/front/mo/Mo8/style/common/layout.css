@@ -1,0 +1,361 @@
+@import url(common.css);
+input.checkbox,
+input.radio,
+input.image {
+	border: 0 !important;
+	background: none;
+}
+.wrap {
+	clear: both;
+}
+.baseTB .baseTH {
+	text-align: left;
+	}
+div.layout_center{
+	margin: 0 auto;
+}
+div.layout_left{
+	margin: 0 auto 0 0;
+}
+div.layout_right{
+	margin: 0 0 0 auto;
+}
+div.fullwidth {
+}
+div.account * {
+        position:static !important;
+}
+p {
+	margin: 0;
+}
+.right {
+	text-align: right !important;
+}
+.mo_vote a.close {
+	top: 13px;
+}
+.mo_vote .md_top .layer_01 {
+        position: relative;
+}
+.msgcontent {
+        z-index: 99991;
+	width: 500px;
+	margin: 20px auto;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	opacity: 0.90;
+	background: #FFF;
+	padding: 10px;
+}
+.mo_vote {
+        z-index: 99990;
+	width: 500px;
+	margin: 20px auto;
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	opacity: 0.90;
+}
+#floatDiv {
+	width: 100%;
+	background: #000;
+	cursor: default;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:9990;
+	height: 2470px;
+}
+#msgbox {
+	position: absolute;
+	z-index: 9999;
+	width: 99%;
+	color: #F00;
+}
+#loadingDiv {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0px 0px;
+	background: #C03;
+	color: #FFF;
+	z-index:99999;
+}
+.hideThis {
+	display: none;
+}
+.showThis {
+	display: block;
+}
+.asoads_left{
+	position:fixed;
+	left:3px;
+	bottom:3px;
+	z-index:999;
+}
+.asoads_right{
+	position:fixed;
+	right:3px;
+	bottom:3px;
+	z-index:999;
+}
+* html div.asoads_right,* html div.asoads_left {
+	position: absolute;
+}
+* html div.col_02 div,
+* html div.col_02 table {
+position: relative;
+}
+* html div.col_02 div.haveimage_2,
+* html div.col_02 div.ptdet,
+* html div.col_02 table.ptdet-def {
+position: static !important;
+}
+.showThis {
+	display: block;
+}
+.hideThis {
+	display: none;
+}
+
+/***** aso *****/
+/*
+div.dynamic-tab {
+	clear: both;
+}
+div.o_block,div.o_none {
+	clear: both;
+	padding: 5px;
+	
+}
+div.dynamic-tab div.no {
+	display: block;
+	color: #000;
+	height: 17px;
+	margin: 0px -1px 0px 2px;
+	cursor: pointer;
+	z-index: 1;
+	text-align: center;
+	top: 0;
+	padding: 3px 0px 0px 0px;
+	white-space: nowrap;
+	width: 100px;
+	float: left;
+}
+div.dynamic-tab div.no div.layer_03 {
+	padding-left: 3px !important;
+	background: url("images/no_left.gif") no-repeat left top !important;
+}
+div.dynamic-tab div.no div.layer_02 {
+	padding-right: 3px !important;
+	background: url("images/no_right.gif") no-repeat right top !important;
+}
+div.dynamic-tab div.no div.layer_01 {
+	padding: 1px 3px 0 3px !important;
+	background: url("images/no_bg.gif") repeat-x !important;
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+div.dynamic-tab div.layer_01 {
+	white-space: nowrap;
+	text-align: center;
+}
+div.dynamic-tab div {
+	float: left;
+}
+div.dynamic-tab div.now {
+	display: block;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	height: 20px !important;
+	z-index: 5;
+	margin: 1px -1px -2px 2px;
+	background: #FFF;
+	border-bottom: 0;
+	top: -1px;
+	position: relative;
+	padding: 1px 0px 0px 0px;
+	width: 100px;
+}
+div.dynamic-tab div.now div.layer_03 {
+	padding-left: 3px !important;
+	background: url("images/now_left.gif") no-repeat left top !important;
+	position: static !important;
+}
+div.dynamic-tab div.now div.layer_02 {
+	padding-right: 3px !important;
+	background: url("images/now_right.gif") no-repeat right top !important;
+	position: static !important;
+}
+div.dynamic-tab div.now div.layer_01 {
+	padding: 2px 3px 0 3px !important;
+	background: url("images/now_bg.gif") repeat-x !important;
+	position: static !important;
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+div.dynamic-tab div.o_block,div.dynamic-tab div.o_none {
+	border: 1px solid #919B9C;
+	background: #FCFCFE;
+	z-index: 2;
+	position: relative;
+	top: -2px;
+	padding: 5px;
+	width: 97%;
+
+}
+div.o_none {
+	display: none;
+}
+*/
+
+div.dynamic-tab {
+	clear: both;
+}
+div.dynamic-tab {
+margin-bottom: 5px;
+}
+div.dynamic-tab div.o_none {
+	display: none;
+}
+div.dynamic-tabs div.layer_03,
+div.dynamic-tabs div.layer_02,
+div.dynamic-tabs div.layer_01 {
+position: static !important;
+}
+.dynamic-tabs {
+height: 25px;
+background: url("images/tabs.gif") repeat-x 0 100%;
+}
+div.dynamic-tab .now,
+div.dynamic-tab .no {
+float: left;
+margin-right: 1px;
+position: static !important;
+}
+div.dynamic-tab .now {
+height: 25px;
+}
+div.dynamic-tab .now .layer_03 {
+height: 25px;
+background: url("images/tabs.gif") no-repeat 100% 0;
+padding-right: 5px;
+}
+div.dynamic-tab .now .layer_02 {
+height: 25px;
+background: url("images/tabs.gif") no-repeat 0 0;
+padding-left: 5px;
+}
+div.dynamic-tab .now .layer_01 {
+height: 25px;
+line-height: 25px;
+cursor: pointer;
+}
+div.dynamic-tab .no .layer_03 {
+height: 24px;
+background: url("images/tabs.gif") no-repeat 100% -25px;
+padding-right: 5px;
+}
+div.dynamic-tab .no .layer_02 {
+height: 24px;
+background: url("images/tabs.gif") no-repeat 0 -25px;
+padding-left: 5px;
+}
+div.dynamic-tab .no .layer_01 {
+height: 24px;
+line-height: 24px;
+cursor: pointer;
+}
+div.dynamic-tab .o_block {
+border: 1px #919B9C solid;
+border-top: 0;
+}
+
+
+*html div.dynamic-tab .now,
+*html div.dynamic-tab .no {
+width: 10px;
+}
+*html div.dynamic-tab .layer_01 {
+white-space: nowrap;
+}
+.flyoutMenu,
+.flyoutSubMenu{
+	z-index: 99;
+}
+/*
+.clickbutton_1 {
+	height: 21px;
+	padding: 2px 2px 1px 12px;
+	cursor: pointer;
+	background: #ECE9D8 url("images/opened.gif") no-repeat 3px 50%;
+	border-width: 1px;
+	margin-left: 5px;
+}
+.clickbutton_2 {
+	height: 21px;
+	padding: 2px 2px 1px 12px;
+	cursor: pointer;
+	background: #ECE9D8 url("images/closed.gif") no-repeat 3px 50%;
+	border-width: 1px;
+	margin-left: 5px;
+}
+*/
+.mainbody {
+clear: both;
+}
+div.dynamic-tab div.layer_03,
+div.dynamic-tab div.layer_02,
+div.dynamic-tab div.layer_01 {
+position: static !important;
+height: 20px;
+}
+div.dynamic-tab div.layer_01 {
+padding-top: 2px !important;
+}
+div.layer_01 div.page {
+display:block;
+}
+
+.mem_price_left {
+text-align: right !important;
+font-weight: bold;
+color: #080;
+}
+.mem_price_right {
+color: #080;
+}
+
+/* COMMON FORUM */
+.mo_forum {
+color: #000;
+}
+.mo_forum .md_middle a,
+.mo_forum .md_middle a:link,
+.mo_forum .md_middle a:visited {
+color: #333;
+}
+.mo_forum .md_middle a:hover {
+color: #000;
+}
+table.forumlist thead th {
+filter: !important;
+}
+td.ptdet-text{
+line-height:normal;
+}
+a.addtocart{
+display:block;
+text-align:left;
+}
+table.viewcart table.retecp,table.viewcart table.retecp td{
+	border:0px;
+}
+table.forumpost td input { 
+height: auto; 
+}

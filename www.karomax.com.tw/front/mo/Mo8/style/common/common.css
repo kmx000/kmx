@@ -1,0 +1,75 @@
+input.count {
+	width: 35px;
+	height: 14px;
+	border-width: 1px;
+	background: #F0F0F0;
+}
+.baseTB .desc {
+	margin: 0 0 0 60px;
+	padding-top: 2px;
+}
+.desc blockquote {
+	border: 1px #CCC dashed;
+	padding: 5px;
+	background: #F5F5F5;
+}
+.center {
+	text-align: center;
+}
+.control p {
+	padding: 5px;
+}
+.control input {
+	padding: 3px;
+	cursor: pointer;
+}
+
+.logdiv{
+	position:absolute;
+	width:100px;
+	/*visibility:hidden;*/
+	display:none;
+}
+.logtd {
+	height: 8px;
+}
+.signdiv{
+	position:absolute;width:190px;display:block;border:1px solid #999999;background:#F0F0F0;z-index:1000;
+}
+/*
+.msgdiv{
+	z-index:999;position:absolute;top:100px;z-index:6;display:none;border:1px solid #999999;background:#F0F0F0;
+}
+*/
+.msgdiv{
+	color:#ff0000;
+}
+a.close {
+position: absolute;
+right: 2px;
+top: 3px;
+width: 18px;
+height: 18px;
+background: url("images/closenormal.gif") no-repeat !important;
+text-indent: -9999px;
+}
+a.close:hover {
+background: url("images/closehover.gif") no-repeat !important;
+}
+#logdiv .row_01_left,
+#logdiv .row_02_left {
+padding-left: 10px;
+}
+#logdiv .row_01_left,
+#logdiv .row_01_right {
+background: none !important;
+}
+#logdiv .row_01_right input,
+#logdiv .row_02_right input {
+width: 80px;
+}
+
+.mo_login .row_01_right input,
+.mo_login .row_02_right input {
+	width: 95%;
+}
